@@ -1,0 +1,98 @@
+.testimonial-wrapper {
+    margin-top: 100px;
+}
+
+.testi-header {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.testi-text {
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.testi-wrapper {
+    width: 100%;
+}
+
+.testi-container {
+    background-color: #F1F3FF;
+    max-width: 619px;
+    margin: 0 auto;
+    height: 270px;
+    border-radius: 8px;
+    display: flex;
+    position: relative;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+}
+
+.testi-photo img {
+    position: absolute;
+    width: 80px;
+    top: 95px;
+    left: 46px;
+}
+
+.testi-review {
+    position: absolute;
+    width: 415px;
+    height: 132px;
+    top: 69px;
+    left: 172px;
+}
+
+.comment {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 8px;
+}
+
+.name {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.stars {
+    margin-bottom: 8px;
+}
+
+.bi-star-fill {
+    color: #F9CC00;
+    width: 16px;
+    margin-bottom: 8px;
+    margin-right: 2px;
+}
+
+@media screen and (max-width: 360px) {
+    .testi-container {
+        max-width: 328px;
+        margin: 0 auto;
+        height: 392px;
+        flex-direction: column;
+    }
+
+    .testi-review {
+        top: 150px;
+        left: 24px;
+        width: 264px;
+    }
+
+    .testi-photo img {
+        left: 116px;
+        top: 40px;
+    }
+
+    .stars {
+        text-align: center;
+        margin-bottom: 24px;
+        
+    }
+
+}

@@ -1,0 +1,82 @@
+.sewa-sekarang-wrapper {
+    width: 100%;
+    margin: 100px 0;
+}
+
+.sewa-sekarang-container {
+    max-width: 1168px;
+    margin: 0 auto;
+    height: 326px;
+    background: #0D28A6;
+    border-radius: 13px;
+}
+
+.sewa-sekarang-container h1 {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 64px;
+    margin-bottom: 16px;
+}
+
+.sewa-sekarang-container p {
+    width: 468px;
+    text-align: center;
+    color: #ffffff;
+    margin: auto;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.sewa-sekarang-container button {
+    background: #5CB85F;
+    border-radius: 2px;
+    width: 140px;
+    height: 36px;
+    margin-left: 44.007%;
+    margin-top: 52px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #ffffff;
+    transition: 0.2s;
+}
+
+.sewa-sekarang-container button:hover {
+    background-color: #89ce8b;
+    transition: 0.2s;
+}
+
+.sewa-sekarang-container button:active {
+    background-color: #c0e8c1;
+    transition: 0.2s;
+}
+
+@media screen and (max-width: 360px) {
+    .sewa-sekarang-wrapper {
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+    
+    .sewa-sekarang-container {
+        max-width: 328px;
+        height: 420px;
+    }
+
+    .sewa-sekarang-container h1 {
+        font-size: 24px;
+        width: 212px;
+        margin-left: 17.683%;
+        line-height: 36px;
+    }
+
+    .sewa-sekarang-container p {
+        width: 212px;
+    }
+
+    .sewa-sekarang-container button {
+        margin-left: 28.658%;
+        margin-top: 32px;
+    }
+}

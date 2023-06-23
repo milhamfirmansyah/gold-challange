@@ -1,0 +1,109 @@
+.hero-container {
+    display: flex;
+    height: 416px;
+    background-color: #F1F3FF;
+}
+
+.hero-left {
+    margin-left: 136px;
+    margin-top: 93px;
+    width: 50%;
+}
+
+.hero-left h1 {
+    width: 568px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+    margin-bottom: 16px;
+}
+
+.hero-left p {
+    width: 468px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+
+.hero-left button {
+    width: 140px;
+    height: 36px;
+    background: #5CB85F;
+    font-weight: 700;
+    font-size: 14px;
+    color: #ffffff;
+    transition: 0.2s;
+}
+
+.hero-left button:hover {
+    background-color: #89ce8b;
+    transition: 0.2s;
+}
+
+.hero-left button:active {
+    background-color: #c0e8c1;
+    transition: 0.2s;
+}
+
+.hero-right {
+    position: relative;
+    width: 50%;
+    display: flex;
+}
+
+.car-image {
+    position: absolute;
+    width: 680px;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.car-background {
+    position: absolute;
+    width: 654px;
+    height: 243px;
+    bottom: 0;
+    left: 0;
+    background: #0D28A6;
+    border-radius: 60px 0px 0px 0px;
+}
+
+@media screen and (max-width: 360px) {
+    .hero-container {
+        flex-direction: column;
+        height: 595px;
+        position: relative;
+    }
+
+    .hero-left {
+        margin-top: 7px;
+        margin-left: 16px;
+    }
+
+    .hero-left h1 {
+        width: 328px;
+    }
+
+    .hero-left p {
+        width: 328px;
+    }
+
+    .hero-right {
+        height: 115px;
+        position: static;
+    }
+
+    .car-image {
+        width: 360px;
+        left: 8px;
+        bottom: -5px;
+    }
+
+    .car-background {
+        width: 344.22px;
+        height: 118.81px;
+        left: 10px;
+    }
+}

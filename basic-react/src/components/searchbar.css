@@ -1,0 +1,37 @@
+#serCard{
+    margin: auto;
+    width: 1047px;
+}
+
+#serForm{
+    margin:24px;
+}
+
+#serRow{
+    display: flex;
+    justify-content: center;
+}
+
+#sebtCol{
+    margin-top: 42px;
+}
+
+#sebtCol button,
+#card-body button {
+    width: 140px;
+    height: 36px;
+    background: #5CB85F;
+    font-weight: 700;
+    font-size: 14px;
+    color: #ffffff;
+    transition: 0.2s;
+}
+
+.carCards{
+    margin-top: 40px ;
+}
+
+p {
+    font-weight: 700;
+    font-size: 14px;
+}

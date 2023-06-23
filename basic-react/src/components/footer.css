@@ -1,0 +1,90 @@
+.footer-wrapper {
+    width: 100%;
+    margin-bottom: 100px;
+    margin-top: 150px;
+}
+
+.footer-container {
+    display: flex;
+    max-width: 1141px;
+    margin: 0 auto;
+}
+
+.footer-info h1,
+.footer-info p {
+    width: 268px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 16px;
+    margin-right: 86px;
+}
+
+.section-list p {
+    margin-right: 86px;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.socmed-container {
+    width: 268px;
+    margin-right: 86px;
+}
+
+.socmed-container p {
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.icon-container {
+    display: flex;
+    width: 224px;
+    justify-content: space-between;
+}
+
+.icon-background {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    background: #0D28A6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-background i {
+    color: #ffffff;
+}
+
+.footer-binar p {
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.logo {
+    width: 100px;
+    height: 34px;
+    background: #0D28A6;
+}
+
+@media screen and (max-width: 360px) {
+    .footer-wrapper {
+        margin-top: 60px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        margin-left: 16px;
+    }
+
+    .icon-background {
+        margin-bottom: 16px;
+    }
+
+    .footer-wrapper {
+        margin-bottom: 60px;
+    }
+}
